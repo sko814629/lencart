@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specs</title>
+    <!-- Bootstrap 5.0.2 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css"> <!-- Optional: Your custom CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+    <link rel="stylesheet" href="./css/medio.css">
+</head>
+
+<body>
+    <header class="header ">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bolder" href="#">Specs</a>
+
+                    <!-- Offcanvas Button for Mobile View -->
+                    <button class="btn btn-white" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <span class="navbar-toggler-icon d-md-none"></span>
+                    </button>
+
+                    <!-- Offcanvas Content -->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas Menu</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>Some text as placeholder. In real life, you can have the elements you have chosen, such
+                                as text, images, lists, etc.</p>
+                            <div class="dropdown mt-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown button
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Normal Navbar Content for Larger Screens -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-bar ">
+                            <li class="nav-item  ">
+                                <a class="nav-link active" aria-current="page" href="#">All Products <i
+                                        class="fa-solid fa-angle-down"></i></a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Pages <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Privacy Poilicy</a></li>
+                                    <li><a href="#">Shiping & Delivery</a></li>
+                                    <li><a href="#">Term & Condition</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+
+                                    Category <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">computer Glass</a></li>
+                                    <li><a href="#">Eyes glass</a></li>
+                                    <li><a href="#">Kid glasss</a></li>
+                                    <li><a href="#">Sunglass</a></li>
+                                    <li><a href="#">Primium glass</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+
+                                    Products <i class="fa-solid fa-angle-down"></i></a>
+                            </li>
+                        </ul>
+                        <form class="d-flex border-left-line">
+                            <input class="form-control me-2 border-0 " type="search" placeholder="Search-Product.."
+                                aria-label="Search">
+
+                        </form>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0  d-flex align-items-center">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 15 18"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7.5 9.81818C4.27834 9.81818 1.66667 12.3824 1.66667 15.5455V17.1818C1.66667 17.6337 1.29357 18 0.833333 18C0.373096 18 0 17.6337 0 17.1818V15.5455C0 11.4786 3.35786 8.18182 7.5 8.18182C11.6421 8.18182 15 11.4786 15 15.5455V17.1818C15 17.6337 14.6269 18 14.1667 18C13.7064 18 13.3333 17.6337 13.3333 17.1818V15.5455C13.3333 12.3824 10.7217 9.81818 7.5 9.81818Z"
+                                            fill="#1D1D1B"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7.5 8.18182C9.34095 8.18182 10.8333 6.71657 10.8333 4.90909C10.8333 3.10161 9.34095 1.63636 7.5 1.63636C5.65905 1.63636 4.16667 3.10161 4.16667 4.90909C4.16667 6.71657 5.65905 8.18182 7.5 8.18182ZM7.5 9.81818C10.2614 9.81818 12.5 7.62031 12.5 4.90909C12.5 2.19787 10.2614 0 7.5 0C4.73858 0 2.5 2.19787 2.5 4.90909C2.5 7.62031 4.73858 9.81818 7.5 9.81818Z"
+                                            fill="#1D1D1B"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 11 11"
+                                        fill="none">
+                                        <path fill-rule="evenodd" fill="#000" clip-rule="evenodd"
+                                            d="M5.5013 9.16602C7.52635 9.16602 9.16797 7.52439 9.16797 5.49935C9.16797 3.4743 7.52635 1.83268 5.5013 1.83268C3.47626 1.83268 1.83464 3.4743 1.83464 5.49935C1.83464 7.52439 3.47626 9.16602 5.5013 9.16602ZM5.5013 10.0827C8.03261 10.0827 10.0846 8.03065 10.0846 5.49935C10.0846 2.96804 8.03261 0.916016 5.5013 0.916016C2.97 0.916016 0.917969 2.96804 0.917969 5.49935C0.917969 8.03065 2.97 10.0827 5.5013 10.0827Z"
+                                            fill="white"></path>
+                                        <path fill-rule="evenodd" fill="#000" clip-rule="evenodd"
+                                            d="M6.29926 8.33031C6.63783 7.65316 6.8737 6.65355 6.8737 5.49935C6.8737 4.34515 6.63783 3.34553 6.29926 2.66839C5.93327 1.93641 5.59727 1.83268 5.4987 1.83268C5.40013 1.83268 5.06412 1.93641 4.69814 2.66839C4.35956 3.34553 4.1237 4.34515 4.1237 5.49935C4.1237 6.65355 4.35956 7.65316 4.69814 8.33031C5.06412 9.06228 5.40013 9.16602 5.4987 9.16602C5.59727 9.16602 5.93327 9.06228 6.29926 8.33031ZM5.4987 10.0827C6.76435 10.0827 7.79036 8.03065 7.79036 5.49935C7.79036 2.96804 6.76435 0.916016 5.4987 0.916016C4.23305 0.916016 3.20703 2.96804 3.20703 5.49935C3.20703 8.03065 4.23305 10.0827 5.4987 10.0827Z"
+                                            fill="white"></path>
+                                        <path fill-rule="evenodd" fill="#000" clip-rule="evenodd"
+                                            d="M10.062 5.95768C10.077 5.80693 10.0846 5.65404 10.0846 5.49935C10.0846 5.34466 10.077 5.19176 10.062 5.04102H0.940599C0.925632 5.19176 0.917969 5.34466 0.917969 5.49935C0.917969 5.65404 0.925632 5.80693 0.940599 5.95768H10.062Z"
+                                            fill="white"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown me-3">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    USD
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="javascript:void(0);">UDD</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0);">GBP</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0);">EUR</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item me-3 d-flex align-items-center ">
+                                <a class="nav-link d-flex align-items-center" href="#">
+                                    <div class="add-cart-heading">
+                                        <span class="fw-bolder lh-1 cart"> My Cart: <br>
+                                            0.00 usd</span>
+                                    </div>
+
+
+                                    <div class="add-cart-box">
+                                        <i class="fa-solid fa-cart-plus ms-1 "></i>
+                                        <span class="cart-circle text-center ">0</span>
+                                    </div>
+
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="announcement d-none d-lg-block">
+        <div class="container">
+            <div class="row py-2">
+                <div class="col-6">
+                    <p class="text-blank   w-100 announcement-left">
+                        Get A Jacket For Free With 100.00 $ Order <a href="#" class="text-dark">Get more.</a>
+                    </p>
+
+                </div>
+                <div class="col-6 ">
+                    <ul
+                        class="d-flex list-unstyled justify-content-between align-items-center ms-auto  w-50 announcement-right m-0">
+                        <li>
+                            <a href="#" class="text-decoration-none text-dark"></a>Policy Privacy</a>
+                        </li>
+                        <li> <a href="#" class="text-decoration-none text-dark">Contact</a> </li>
+                        <li> <a href="#" class="text-decoration-none text-dark"></a>FAQ</a> </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item  ">
+                    <div class="slide-box py-5">
+                        <div class="slide-heading text-white d-flex flex-column justify-content-center ">
+                            <h4>Speces</h4>
+                            <h2 class="fw-normal">Top Glasses <br> and sunglasses
+                            </h2>
+                            <p>Easily configure complex layouts with the Drag & Drop <br>
+                                interface for the whole site or specific pages.
+                            </p>
+                            <div class="slide-btn w-100 d-inline-block">
+                                <button class="primary-btn">Show More</button>
+                                <button class="secdary-btn"> <i class="fa-solid fa-magnifying-glass"></i> Find
+                                    Products</button>
+                            </div>
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/home-banner.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item active">
+                    <div class="slide-box  py-5">
+                        <div class="slide-heading text-white d-flex flex-column justify-content-center ">
+                            <h4>Speces</h4>
+                            <h2 class="fw-normal">Top Glasses <br> and sunglasses
+                            </h2>
+                            <p>Easily configure complex layouts with the Drag & Drop <br>
+                                interface for the whole site or specific pages.
+                            </p>
+                            <div class="slide-btn w-100 d-inline-block">
+                                <button class="primary-btn">Show More</button>
+                                <button class="secdary-btn"> <i class="fa-solid fa-magnifying-glass"></i> Find
+                                    Products</button>
+                            </div>
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/home-banner.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item">
+                    <div class="slide-box  py-5">
+                        <div class="slide-heading text-white d-flex flex-column justify-content-center">
+                            <h4>Speces</h4>
+                            <h2 class="fw-normal">Spectification<br> and Features
+                            </h2>
+                            <p>Easily configure complex layouts with the Drag & Drop <br>
+                                interface for the whole site or specific pages.
+                            </p>
+                            <div class="slide-btn w-100 d-inline-block">
+                                <button class="primary-btn">Show More</button>
+                                <button class="secdary-btn"> <i class="fa-solid fa-magnifying-glass"></i> Find
+                                    Products</button>
+                            </div>
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/home-banner2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide-box  py-5">
+                        <div class="slide-heading text-white d-flex flex-column justify-content-center">
+                            <h4>Speces</h4>
+                            <h2 class="fw-normal">TecNova Unveiling <br> and sunglasses
+                            </h2>
+                            <p>Easily configure complex layouts with the Drag & Drop <br>
+                                interface for the whole site or specific pages.
+                            </p>
+                            <div class="slide-btn w-100 d-inline-block">
+                                <button class="primary-btn">Show More</button>
+                                <button class="secdary-btn"> <i class="fa-solid fa-magnifying-glass"></i> Find
+                                    Products</button>
+                            </div>
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/home-banner3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="best-sell">
+        <div class="container">
+            <div class="row mt-4 d-lg-none">
+                <div class="col-6">
+                    <h2>Bestseller</h2>
+
+                </div>
+                <div class="col-6 text-end ">
+                    <button class="secdary-btn "> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                            viewBox="0 0 15 15" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.39025 12.636V11.06L14.2425 4.756C15.2525 3.668 15.2525 1.904 14.2425 0.816001C13.2324 -0.272 11.5949 -0.272 10.5848 0.816001L0.539316 11.637C-0.612777 12.878 0.203182 15 1.83249 15H6.19566C7.4077 15 8.39025 13.9416 8.39025 12.636ZM6.92719 11.0601L5.03558 9.02244L1.57385 12.7514C1.34343 12.9996 1.50663 13.424 1.83249 13.424H6.19566C6.59968 13.424 6.92719 13.0712 6.92719 12.636V11.0601ZM6.13287 7.84044L11.6194 1.9304C12.058 1.45787 12.7693 1.45787 13.2079 1.9304C13.6466 2.40294 13.6466 3.16907 13.2079 3.6416L7.72144 9.55164L6.13287 7.84044Z"
+                                fill="#CDC6BE"></path>
+                        </svg> show
+                        Products</button>
+
+                </div>
+            </div>
+            <div class="row  g-0">
+                <div class="col-md-4 ">
+                    <div class="sell-box d-flex py-3">
+                        <img src="/img/1_9544211f-8d3b-43ce-bb74-b5c52f45c9c7_156x156.png" alt="">
+                        <div class="sell-heading">
+                            <h4>Eyeglass</h4>
+                            <h2 class="py-2">Brown Full Rim</h2>
+                            <div class="review-star mb-3">
+                                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark"> <span>49 <sup>USD</sup></span> <span
+                                    class="ms-4 text-decoration-line-through">99.00 <super>USD</super></span></a>
+
+                            <div class="shop-btn mt-3">
+                                <a href="#" class="secdary-btn text-decoration-none"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.21665 8.50065C3.9978 8.50065 3.83133 8.69717 3.86731 8.91304L4.54572 12.9836C4.65957 13.6667 5.25059 14.1673 5.94311 14.1673H11.0594C11.7519 14.1673 12.3429 13.6667 12.4568 12.9836L13.1352 8.91304C13.1712 8.69717 13.0047 8.50065 12.7859 8.50065H4.21665ZM2.96241 7.08398C2.52471 7.08398 2.19176 7.47702 2.26372 7.90877L3.14833 13.2164C3.37603 14.5826 4.55807 15.584 5.94311 15.584H11.0594C12.4444 15.584 13.6265 14.5826 13.8542 13.2164L14.7388 7.90877C14.8107 7.47702 14.4778 7.08398 14.0401 7.08398H2.96241Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.08333 9.91602C6.69213 9.91602 6.375 10.2331 6.375 10.6243V12.041C6.375 12.4322 6.69213 12.7493 7.08333 12.7493C7.47453 12.7493 7.79167 12.4322 7.79167 12.041V10.6243C7.79167 10.2331 7.47453 9.91602 7.08333 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.91667 9.91602C9.52547 9.91602 9.20833 10.2331 9.20833 10.6243V12.041C9.20833 12.4322 9.52547 12.7493 9.91667 12.7493C10.3079 12.7493 10.625 12.4322 10.625 12.041V10.6243C10.625 10.2331 10.3079 9.91602 9.91667 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.5855 2.62522C7.86212 2.34859 7.86212 1.9001 7.5855 1.62348C7.30888 1.34686 6.86039 1.34686 6.58377 1.62348L3.75043 4.45682C3.47381 4.73344 3.47381 5.18193 3.75043 5.45855C4.02706 5.73517 4.47555 5.73517 4.75217 5.45855L7.5855 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.4171 2.62522C9.14048 2.34859 9.14048 1.9001 9.4171 1.62348C9.69372 1.34686 10.1422 1.34686 10.4188 1.62348L13.2522 4.45682C13.5288 4.73344 13.5288 5.18193 13.2522 5.45855C12.9755 5.73517 12.5271 5.73517 12.2504 5.45855L9.4171 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4596 5.66667H3.54297C3.15177 5.66667 2.83464 5.9838 2.83464 6.375C2.83464 6.7662 3.15177 7.08333 3.54297 7.08333H13.4596C13.8508 7.08333 14.168 6.7662 14.168 6.375C14.168 5.9838 13.8508 5.66667 13.4596 5.66667ZM3.54297 4.25C2.36936 4.25 1.41797 5.20139 1.41797 6.375C1.41797 7.5486 2.36936 8.5 3.54297 8.5H13.4596C14.6332 8.5 15.5846 7.5486 15.5846 6.375C15.5846 5.20139 14.6332 4.25 13.4596 4.25H3.54297Z"
+                                            fill="#12131A"></path>
+                                    </svg> Add cart</a>
+                            </div>
+
+                        </div>
+
+                        <div class="shop-icon  text-center">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye-slash"></i></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="sell-box d-flex py-3">
+                        <img src="/img/1_e0b22044-e4c2-4fc1-a1ab-b6055053e11e_156x156.png" alt="">
+                        <div class="sell-heading">
+                            <h4>Eyeglass</h4>
+                            <h2 class="py-2">Brown Full Rim</h2>
+                            <div class="review-star mb-3">
+                                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark"> <span>59 <sup>USD</sup> </span> <span
+                                    class="ms-4 text-decoration-line-through">99.00 <super>USD</super></span></a>
+
+                            <div class="shop-btn mt-3">
+                                <a href="#" class="secdary-btn text-decoration-none"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.21665 8.50065C3.9978 8.50065 3.83133 8.69717 3.86731 8.91304L4.54572 12.9836C4.65957 13.6667 5.25059 14.1673 5.94311 14.1673H11.0594C11.7519 14.1673 12.3429 13.6667 12.4568 12.9836L13.1352 8.91304C13.1712 8.69717 13.0047 8.50065 12.7859 8.50065H4.21665ZM2.96241 7.08398C2.52471 7.08398 2.19176 7.47702 2.26372 7.90877L3.14833 13.2164C3.37603 14.5826 4.55807 15.584 5.94311 15.584H11.0594C12.4444 15.584 13.6265 14.5826 13.8542 13.2164L14.7388 7.90877C14.8107 7.47702 14.4778 7.08398 14.0401 7.08398H2.96241Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.08333 9.91602C6.69213 9.91602 6.375 10.2331 6.375 10.6243V12.041C6.375 12.4322 6.69213 12.7493 7.08333 12.7493C7.47453 12.7493 7.79167 12.4322 7.79167 12.041V10.6243C7.79167 10.2331 7.47453 9.91602 7.08333 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.91667 9.91602C9.52547 9.91602 9.20833 10.2331 9.20833 10.6243V12.041C9.20833 12.4322 9.52547 12.7493 9.91667 12.7493C10.3079 12.7493 10.625 12.4322 10.625 12.041V10.6243C10.625 10.2331 10.3079 9.91602 9.91667 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.5855 2.62522C7.86212 2.34859 7.86212 1.9001 7.5855 1.62348C7.30888 1.34686 6.86039 1.34686 6.58377 1.62348L3.75043 4.45682C3.47381 4.73344 3.47381 5.18193 3.75043 5.45855C4.02706 5.73517 4.47555 5.73517 4.75217 5.45855L7.5855 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.4171 2.62522C9.14048 2.34859 9.14048 1.9001 9.4171 1.62348C9.69372 1.34686 10.1422 1.34686 10.4188 1.62348L13.2522 4.45682C13.5288 4.73344 13.5288 5.18193 13.2522 5.45855C12.9755 5.73517 12.5271 5.73517 12.2504 5.45855L9.4171 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4596 5.66667H3.54297C3.15177 5.66667 2.83464 5.9838 2.83464 6.375C2.83464 6.7662 3.15177 7.08333 3.54297 7.08333H13.4596C13.8508 7.08333 14.168 6.7662 14.168 6.375C14.168 5.9838 13.8508 5.66667 13.4596 5.66667ZM3.54297 4.25C2.36936 4.25 1.41797 5.20139 1.41797 6.375C1.41797 7.5486 2.36936 8.5 3.54297 8.5H13.4596C14.6332 8.5 15.5846 7.5486 15.5846 6.375C15.5846 5.20139 14.6332 4.25 13.4596 4.25H3.54297Z"
+                                            fill="#12131A"></path>
+                                    </svg>Add cart</a>
+                            </div>
+
+                        </div>
+                        <div class="  shop-icon  text-center">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye-slash"></i></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="sell-box d-flex py-3">
+                        <img src="/img/1_9544211f-8d3b-43ce-bb74-b5c52f45c9c7_156x156 (1).png" alt="">
+                        <div class="sell-heading">
+                            <h4>Eyeglass</h4>
+                            <h2 class="py-2">Brown Full Rim</h2>
+                            <div class="review-star mb-3">
+                                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark"> <span>79 <sup>USD</sup> </span> <span
+                                    class="ms-4 text-decoration-line-through">99.00 <super>USD</super></span></a>
+                            <div class="shop-btn mt-3">
+                                <a href="#" class="secdary-btn text-decoration-none text-dark"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.21665 8.50065C3.9978 8.50065 3.83133 8.69717 3.86731 8.91304L4.54572 12.9836C4.65957 13.6667 5.25059 14.1673 5.94311 14.1673H11.0594C11.7519 14.1673 12.3429 13.6667 12.4568 12.9836L13.1352 8.91304C13.1712 8.69717 13.0047 8.50065 12.7859 8.50065H4.21665ZM2.96241 7.08398C2.52471 7.08398 2.19176 7.47702 2.26372 7.90877L3.14833 13.2164C3.37603 14.5826 4.55807 15.584 5.94311 15.584H11.0594C12.4444 15.584 13.6265 14.5826 13.8542 13.2164L14.7388 7.90877C14.8107 7.47702 14.4778 7.08398 14.0401 7.08398H2.96241Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.08333 9.91602C6.69213 9.91602 6.375 10.2331 6.375 10.6243V12.041C6.375 12.4322 6.69213 12.7493 7.08333 12.7493C7.47453 12.7493 7.79167 12.4322 7.79167 12.041V10.6243C7.79167 10.2331 7.47453 9.91602 7.08333 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.91667 9.91602C9.52547 9.91602 9.20833 10.2331 9.20833 10.6243V12.041C9.20833 12.4322 9.52547 12.7493 9.91667 12.7493C10.3079 12.7493 10.625 12.4322 10.625 12.041V10.6243C10.625 10.2331 10.3079 9.91602 9.91667 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.5855 2.62522C7.86212 2.34859 7.86212 1.9001 7.5855 1.62348C7.30888 1.34686 6.86039 1.34686 6.58377 1.62348L3.75043 4.45682C3.47381 4.73344 3.47381 5.18193 3.75043 5.45855C4.02706 5.73517 4.47555 5.73517 4.75217 5.45855L7.5855 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.4171 2.62522C9.14048 2.34859 9.14048 1.9001 9.4171 1.62348C9.69372 1.34686 10.1422 1.34686 10.4188 1.62348L13.2522 4.45682C13.5288 4.73344 13.5288 5.18193 13.2522 5.45855C12.9755 5.73517 12.5271 5.73517 12.2504 5.45855L9.4171 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4596 5.66667H3.54297C3.15177 5.66667 2.83464 5.9838 2.83464 6.375C2.83464 6.7662 3.15177 7.08333 3.54297 7.08333H13.4596C13.8508 7.08333 14.168 6.7662 14.168 6.375C14.168 5.9838 13.8508 5.66667 13.4596 5.66667ZM3.54297 4.25C2.36936 4.25 1.41797 5.20139 1.41797 6.375C1.41797 7.5486 2.36936 8.5 3.54297 8.5H13.4596C14.6332 8.5 15.5846 7.5486 15.5846 6.375C15.5846 5.20139 14.6332 4.25 13.4596 4.25H3.54297Z"
+                                            fill="#12131A"></path>
+                                    </svg>Add cart</a>
+                            </div>
+
+                        </div>
+                        <div class="  shop-icon text-center">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye-slash"></i></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- <section class="sample-box"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+
+                                <div class="sample d-flex justify-content-between py-5 text-center align-items-center">
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="carousel-item">
+                                <div class="sample d-flex justify-content-between py-5 text-center align-items-center">
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="sample d-flex justify-content-between py-5 text-center align-items-center">
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                    <div class="sample-box text-center w-100 ">
+                                        <h4>Specs</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>  -->
+    <section class="optic ">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-5">
+                    <h2> <span class="fw-bolder">Optic Odyssey A</span> <br>
+                        Clearer Perspective</h2>
+                </div>
+                <div class="col-md-5">
+                    <p>Embark on an optical journey that transcends mere vision; Optic Odyssey is an immersive
+                        exploration into the multifaceted world of eyewear.</p>
+                </div>
+                <div class="col-md-2">
+
+                    <button class="secdary-btn "> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                            viewBox="0 0 15 15" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.39025 12.636V11.06L14.2425 4.756C15.2525 3.668 15.2525 1.904 14.2425 0.816001C13.2324 -0.272 11.5949 -0.272 10.5848 0.816001L0.539316 11.637C-0.612777 12.878 0.203182 15 1.83249 15H6.19566C7.4077 15 8.39025 13.9416 8.39025 12.636ZM6.92719 11.0601L5.03558 9.02244L1.57385 12.7514C1.34343 12.9996 1.50663 13.424 1.83249 13.424H6.19566C6.59968 13.424 6.92719 13.0712 6.92719 12.636V11.0601ZM6.13287 7.84044L11.6194 1.9304C12.058 1.45787 12.7693 1.45787 13.2079 1.9304C13.6466 2.40294 13.6466 3.16907 13.2079 3.6416L7.72144 9.55164L6.13287 7.84044Z"
+                                fill="#CDC6BE"></path>
+                        </svg> show
+                        Products</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row  g-0  my-5">
+                <div class="col-md-4  bg-light border">
+                    <div class="sell-box1 d-flex py-3">
+                        <img src="/img/1_9544211f-8d3b-43ce-bb74-b5c52f45c9c7_156x156.png" alt="">
+                        <div class="sell-heading">
+                            <h4>Eyeglass</h4>
+                            <h2 class="py-2">Brown Full Rim</h2>
+                            <div class="review-star mb-3">
+                                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark"> <span>49 <sup>USD</sup></span> <span
+                                    class="ms-4 text-decoration-line-through">99.00 <super>USD</super></span></a>
+
+                            <div class="shop-btn mt-3">
+                                <a href="#" class="secdary-btn text-decoration-none"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.21665 8.50065C3.9978 8.50065 3.83133 8.69717 3.86731 8.91304L4.54572 12.9836C4.65957 13.6667 5.25059 14.1673 5.94311 14.1673H11.0594C11.7519 14.1673 12.3429 13.6667 12.4568 12.9836L13.1352 8.91304C13.1712 8.69717 13.0047 8.50065 12.7859 8.50065H4.21665ZM2.96241 7.08398C2.52471 7.08398 2.19176 7.47702 2.26372 7.90877L3.14833 13.2164C3.37603 14.5826 4.55807 15.584 5.94311 15.584H11.0594C12.4444 15.584 13.6265 14.5826 13.8542 13.2164L14.7388 7.90877C14.8107 7.47702 14.4778 7.08398 14.0401 7.08398H2.96241Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.08333 9.91602C6.69213 9.91602 6.375 10.2331 6.375 10.6243V12.041C6.375 12.4322 6.69213 12.7493 7.08333 12.7493C7.47453 12.7493 7.79167 12.4322 7.79167 12.041V10.6243C7.79167 10.2331 7.47453 9.91602 7.08333 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.91667 9.91602C9.52547 9.91602 9.20833 10.2331 9.20833 10.6243V12.041C9.20833 12.4322 9.52547 12.7493 9.91667 12.7493C10.3079 12.7493 10.625 12.4322 10.625 12.041V10.6243C10.625 10.2331 10.3079 9.91602 9.91667 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.5855 2.62522C7.86212 2.34859 7.86212 1.9001 7.5855 1.62348C7.30888 1.34686 6.86039 1.34686 6.58377 1.62348L3.75043 4.45682C3.47381 4.73344 3.47381 5.18193 3.75043 5.45855C4.02706 5.73517 4.47555 5.73517 4.75217 5.45855L7.5855 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.4171 2.62522C9.14048 2.34859 9.14048 1.9001 9.4171 1.62348C9.69372 1.34686 10.1422 1.34686 10.4188 1.62348L13.2522 4.45682C13.5288 4.73344 13.5288 5.18193 13.2522 5.45855C12.9755 5.73517 12.5271 5.73517 12.2504 5.45855L9.4171 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4596 5.66667H3.54297C3.15177 5.66667 2.83464 5.9838 2.83464 6.375C2.83464 6.7662 3.15177 7.08333 3.54297 7.08333H13.4596C13.8508 7.08333 14.168 6.7662 14.168 6.375C14.168 5.9838 13.8508 5.66667 13.4596 5.66667ZM3.54297 4.25C2.36936 4.25 1.41797 5.20139 1.41797 6.375C1.41797 7.5486 2.36936 8.5 3.54297 8.5H13.4596C14.6332 8.5 15.5846 7.5486 15.5846 6.375C15.5846 5.20139 14.6332 4.25 13.4596 4.25H3.54297Z"
+                                            fill="#12131A"></path>
+                                    </svg> Add cart</a>
+                            </div>
+
+                        </div>
+
+                        <div class="shop-icon  text-center">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye-slash"></i></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4  bg-light border">
+                    <div class="sell-box1 d-flex py-3">
+                        <img src="/img/1_e0b22044-e4c2-4fc1-a1ab-b6055053e11e_156x156.png" alt="">
+                        <div class="sell-heading">
+                            <h4>Eyeglass</h4>
+                            <h2 class="py-2">Brown Full Rim</h2>
+                            <div class="review-star mb-3">
+                                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark"> <span>59 <sup>USD</sup> </span> <span
+                                    class="ms-4 text-decoration-line-through">99.00 <super>USD</super></span></a>
+
+                            <div class="shop-btn mt-3">
+                                <a href="#" class="secdary-btn text-decoration-none"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.21665 8.50065C3.9978 8.50065 3.83133 8.69717 3.86731 8.91304L4.54572 12.9836C4.65957 13.6667 5.25059 14.1673 5.94311 14.1673H11.0594C11.7519 14.1673 12.3429 13.6667 12.4568 12.9836L13.1352 8.91304C13.1712 8.69717 13.0047 8.50065 12.7859 8.50065H4.21665ZM2.96241 7.08398C2.52471 7.08398 2.19176 7.47702 2.26372 7.90877L3.14833 13.2164C3.37603 14.5826 4.55807 15.584 5.94311 15.584H11.0594C12.4444 15.584 13.6265 14.5826 13.8542 13.2164L14.7388 7.90877C14.8107 7.47702 14.4778 7.08398 14.0401 7.08398H2.96241Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.08333 9.91602C6.69213 9.91602 6.375 10.2331 6.375 10.6243V12.041C6.375 12.4322 6.69213 12.7493 7.08333 12.7493C7.47453 12.7493 7.79167 12.4322 7.79167 12.041V10.6243C7.79167 10.2331 7.47453 9.91602 7.08333 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.91667 9.91602C9.52547 9.91602 9.20833 10.2331 9.20833 10.6243V12.041C9.20833 12.4322 9.52547 12.7493 9.91667 12.7493C10.3079 12.7493 10.625 12.4322 10.625 12.041V10.6243C10.625 10.2331 10.3079 9.91602 9.91667 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.5855 2.62522C7.86212 2.34859 7.86212 1.9001 7.5855 1.62348C7.30888 1.34686 6.86039 1.34686 6.58377 1.62348L3.75043 4.45682C3.47381 4.73344 3.47381 5.18193 3.75043 5.45855C4.02706 5.73517 4.47555 5.73517 4.75217 5.45855L7.5855 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.4171 2.62522C9.14048 2.34859 9.14048 1.9001 9.4171 1.62348C9.69372 1.34686 10.1422 1.34686 10.4188 1.62348L13.2522 4.45682C13.5288 4.73344 13.5288 5.18193 13.2522 5.45855C12.9755 5.73517 12.5271 5.73517 12.2504 5.45855L9.4171 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4596 5.66667H3.54297C3.15177 5.66667 2.83464 5.9838 2.83464 6.375C2.83464 6.7662 3.15177 7.08333 3.54297 7.08333H13.4596C13.8508 7.08333 14.168 6.7662 14.168 6.375C14.168 5.9838 13.8508 5.66667 13.4596 5.66667ZM3.54297 4.25C2.36936 4.25 1.41797 5.20139 1.41797 6.375C1.41797 7.5486 2.36936 8.5 3.54297 8.5H13.4596C14.6332 8.5 15.5846 7.5486 15.5846 6.375C15.5846 5.20139 14.6332 4.25 13.4596 4.25H3.54297Z"
+                                            fill="#12131A"></path>
+                                    </svg>Add cart</a>
+                            </div>
+
+                        </div>
+                        <div class="  shop-icon  text-center">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye-slash"></i></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 bg-light border">
+                    <div class="sell-box1 d-flex py-3">
+                        <img src="/img/1_9544211f-8d3b-43ce-bb74-b5c52f45c9c7_156x156 (1).png" alt="">
+                        <div class="sell-heading">
+                            <h4>Eyeglass</h4>
+                            <h2 class="py-2">Brown Full Rim</h2>
+                            <div class="review-star mb-3">
+                                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark"> <span>79 <sup>USD</sup> </span> <span
+                                    class="ms-4 text-decoration-line-through">99.00 <super>USD</super></span></a>
+                            <div class="shop-btn mt-3">
+                                <a href="#" class="secdary-btn text-decoration-none text-dark"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.21665 8.50065C3.9978 8.50065 3.83133 8.69717 3.86731 8.91304L4.54572 12.9836C4.65957 13.6667 5.25059 14.1673 5.94311 14.1673H11.0594C11.7519 14.1673 12.3429 13.6667 12.4568 12.9836L13.1352 8.91304C13.1712 8.69717 13.0047 8.50065 12.7859 8.50065H4.21665ZM2.96241 7.08398C2.52471 7.08398 2.19176 7.47702 2.26372 7.90877L3.14833 13.2164C3.37603 14.5826 4.55807 15.584 5.94311 15.584H11.0594C12.4444 15.584 13.6265 14.5826 13.8542 13.2164L14.7388 7.90877C14.8107 7.47702 14.4778 7.08398 14.0401 7.08398H2.96241Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.08333 9.91602C6.69213 9.91602 6.375 10.2331 6.375 10.6243V12.041C6.375 12.4322 6.69213 12.7493 7.08333 12.7493C7.47453 12.7493 7.79167 12.4322 7.79167 12.041V10.6243C7.79167 10.2331 7.47453 9.91602 7.08333 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.91667 9.91602C9.52547 9.91602 9.20833 10.2331 9.20833 10.6243V12.041C9.20833 12.4322 9.52547 12.7493 9.91667 12.7493C10.3079 12.7493 10.625 12.4322 10.625 12.041V10.6243C10.625 10.2331 10.3079 9.91602 9.91667 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.5855 2.62522C7.86212 2.34859 7.86212 1.9001 7.5855 1.62348C7.30888 1.34686 6.86039 1.34686 6.58377 1.62348L3.75043 4.45682C3.47381 4.73344 3.47381 5.18193 3.75043 5.45855C4.02706 5.73517 4.47555 5.73517 4.75217 5.45855L7.5855 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.4171 2.62522C9.14048 2.34859 9.14048 1.9001 9.4171 1.62348C9.69372 1.34686 10.1422 1.34686 10.4188 1.62348L13.2522 4.45682C13.5288 4.73344 13.5288 5.18193 13.2522 5.45855C12.9755 5.73517 12.5271 5.73517 12.2504 5.45855L9.4171 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4596 5.66667H3.54297C3.15177 5.66667 2.83464 5.9838 2.83464 6.375C2.83464 6.7662 3.15177 7.08333 3.54297 7.08333H13.4596C13.8508 7.08333 14.168 6.7662 14.168 6.375C14.168 5.9838 13.8508 5.66667 13.4596 5.66667ZM3.54297 4.25C2.36936 4.25 1.41797 5.20139 1.41797 6.375C1.41797 7.5486 2.36936 8.5 3.54297 8.5H13.4596C14.6332 8.5 15.5846 7.5486 15.5846 6.375C15.5846 5.20139 14.6332 4.25 13.4596 4.25H3.54297Z"
+                                            fill="#12131A"></path>
+                                    </svg>Add cart</a>
+                            </div>
+
+                        </div>
+                        <div class="  shop-icon text-center">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye-slash"></i></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mt-4 bg-light border">
+                    <div class="sell-box1 d-flex py-3">
+                        <img src="/img/1_9544211f-8d3b-43ce-bb74-b5c52f45c9c7_156x156 (1).png" alt="">
+                        <div class="sell-heading">
+                            <h4>Eyeglass</h4>
+                            <h2 class="py-2">Brown Full Rim</h2>
+                            <div class="review-star mb-3">
+                                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark"> <span>79 <sup>USD</sup> </span> <span
+                                    class="ms-4 text-decoration-line-through">99.00 <super>USD</super></span></a>
+                            <div class="shop-btn mt-3">
+                                <a href="#" class="secdary-btn text-decoration-none text-dark"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.21665 8.50065C3.9978 8.50065 3.83133 8.69717 3.86731 8.91304L4.54572 12.9836C4.65957 13.6667 5.25059 14.1673 5.94311 14.1673H11.0594C11.7519 14.1673 12.3429 13.6667 12.4568 12.9836L13.1352 8.91304C13.1712 8.69717 13.0047 8.50065 12.7859 8.50065H4.21665ZM2.96241 7.08398C2.52471 7.08398 2.19176 7.47702 2.26372 7.90877L3.14833 13.2164C3.37603 14.5826 4.55807 15.584 5.94311 15.584H11.0594C12.4444 15.584 13.6265 14.5826 13.8542 13.2164L14.7388 7.90877C14.8107 7.47702 14.4778 7.08398 14.0401 7.08398H2.96241Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.08333 9.91602C6.69213 9.91602 6.375 10.2331 6.375 10.6243V12.041C6.375 12.4322 6.69213 12.7493 7.08333 12.7493C7.47453 12.7493 7.79167 12.4322 7.79167 12.041V10.6243C7.79167 10.2331 7.47453 9.91602 7.08333 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.91667 9.91602C9.52547 9.91602 9.20833 10.2331 9.20833 10.6243V12.041C9.20833 12.4322 9.52547 12.7493 9.91667 12.7493C10.3079 12.7493 10.625 12.4322 10.625 12.041V10.6243C10.625 10.2331 10.3079 9.91602 9.91667 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.5855 2.62522C7.86212 2.34859 7.86212 1.9001 7.5855 1.62348C7.30888 1.34686 6.86039 1.34686 6.58377 1.62348L3.75043 4.45682C3.47381 4.73344 3.47381 5.18193 3.75043 5.45855C4.02706 5.73517 4.47555 5.73517 4.75217 5.45855L7.5855 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.4171 2.62522C9.14048 2.34859 9.14048 1.9001 9.4171 1.62348C9.69372 1.34686 10.1422 1.34686 10.4188 1.62348L13.2522 4.45682C13.5288 4.73344 13.5288 5.18193 13.2522 5.45855C12.9755 5.73517 12.5271 5.73517 12.2504 5.45855L9.4171 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4596 5.66667H3.54297C3.15177 5.66667 2.83464 5.9838 2.83464 6.375C2.83464 6.7662 3.15177 7.08333 3.54297 7.08333H13.4596C13.8508 7.08333 14.168 6.7662 14.168 6.375C14.168 5.9838 13.8508 5.66667 13.4596 5.66667ZM3.54297 4.25C2.36936 4.25 1.41797 5.20139 1.41797 6.375C1.41797 7.5486 2.36936 8.5 3.54297 8.5H13.4596C14.6332 8.5 15.5846 7.5486 15.5846 6.375C15.5846 5.20139 14.6332 4.25 13.4596 4.25H3.54297Z"
+                                            fill="#12131A"></path>
+                                    </svg>Add cart</a>
+                            </div>
+
+                        </div>
+                        <div class="  shop-icon text-center">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye-slash"></i></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-4 bg-light border">
+                    <div class="sell-box1 d-flex py-3">
+                        <img src="/img/1_9544211f-8d3b-43ce-bb74-b5c52f45c9c7_156x156 (1).png" alt="">
+                        <div class="sell-heading">
+                            <h4>Eyeglass</h4>
+                            <h2 class="py-2">Brown Full Rim</h2>
+                            <div class="review-star mb-3">
+                                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark"> <span>79 <sup>USD</sup> </span> <span
+                                    class="ms-4 text-decoration-line-through">99.00 <super>USD</super></span></a>
+                            <div class="shop-btn mt-3">
+                                <a href="#" class="secdary-btn text-decoration-none text-dark"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.21665 8.50065C3.9978 8.50065 3.83133 8.69717 3.86731 8.91304L4.54572 12.9836C4.65957 13.6667 5.25059 14.1673 5.94311 14.1673H11.0594C11.7519 14.1673 12.3429 13.6667 12.4568 12.9836L13.1352 8.91304C13.1712 8.69717 13.0047 8.50065 12.7859 8.50065H4.21665ZM2.96241 7.08398C2.52471 7.08398 2.19176 7.47702 2.26372 7.90877L3.14833 13.2164C3.37603 14.5826 4.55807 15.584 5.94311 15.584H11.0594C12.4444 15.584 13.6265 14.5826 13.8542 13.2164L14.7388 7.90877C14.8107 7.47702 14.4778 7.08398 14.0401 7.08398H2.96241Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.08333 9.91602C6.69213 9.91602 6.375 10.2331 6.375 10.6243V12.041C6.375 12.4322 6.69213 12.7493 7.08333 12.7493C7.47453 12.7493 7.79167 12.4322 7.79167 12.041V10.6243C7.79167 10.2331 7.47453 9.91602 7.08333 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.91667 9.91602C9.52547 9.91602 9.20833 10.2331 9.20833 10.6243V12.041C9.20833 12.4322 9.52547 12.7493 9.91667 12.7493C10.3079 12.7493 10.625 12.4322 10.625 12.041V10.6243C10.625 10.2331 10.3079 9.91602 9.91667 9.91602Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M7.5855 2.62522C7.86212 2.34859 7.86212 1.9001 7.5855 1.62348C7.30888 1.34686 6.86039 1.34686 6.58377 1.62348L3.75043 4.45682C3.47381 4.73344 3.47381 5.18193 3.75043 5.45855C4.02706 5.73517 4.47555 5.73517 4.75217 5.45855L7.5855 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path
+                                            d="M9.4171 2.62522C9.14048 2.34859 9.14048 1.9001 9.4171 1.62348C9.69372 1.34686 10.1422 1.34686 10.4188 1.62348L13.2522 4.45682C13.5288 4.73344 13.5288 5.18193 13.2522 5.45855C12.9755 5.73517 12.5271 5.73517 12.2504 5.45855L9.4171 2.62522Z"
+                                            fill="#12131A"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4596 5.66667H3.54297C3.15177 5.66667 2.83464 5.9838 2.83464 6.375C2.83464 6.7662 3.15177 7.08333 3.54297 7.08333H13.4596C13.8508 7.08333 14.168 6.7662 14.168 6.375C14.168 5.9838 13.8508 5.66667 13.4596 5.66667ZM3.54297 4.25C2.36936 4.25 1.41797 5.20139 1.41797 6.375C1.41797 7.5486 2.36936 8.5 3.54297 8.5H13.4596C14.6332 8.5 15.5846 7.5486 15.5846 6.375C15.5846 5.20139 14.6332 4.25 13.4596 4.25H3.54297Z"
+                                            fill="#12131A"></path>
+                                    </svg>Add cart</a>
+                            </div>
+
+                        </div>
+                        <div class="  shop-icon text-center">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye-slash"></i></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="modern-accessories">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-md-6">
+                    <div class="modern-accessories-img">
+                        <img src="/img/morden-img.png" class="img-fluid" alt="">
+                        <div class="modern-content-title">
+                            <h4  class="text-success">Speces</h4>
+                            <h2 class="fw-bolder fs-5">VisionQuest A
+                                <br> <span class="fw-normal">Spectacular Spectacle</span>
+                            </h2>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-6">
+                    <div class="modern-accessories-heading">
+                        <h4>Speces</h4>
+                        <h2 class="fw-bolder fs-1">Through The Looking <br> Lens Visionary Vistas
+                        </h2>
+                        <p>Easily configure complex layouts with the Drag & Drop <br>
+                            interface for the whole site or specific pages.
+                        </p>
+                        <div class="slide-btn w-100 d-inline-block">
+
+                            <button class="secdary-btn"> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                    viewBox="0 0 15 15" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.39025 12.636V11.06L14.2425 4.756C15.2525 3.668 15.2525 1.904 14.2425 0.816001C13.2324 -0.272 11.5949 -0.272 10.5848 0.816001L0.539316 11.637C-0.612777 12.878 0.203182 15 1.83249 15H6.19566C7.4077 15 8.39025 13.9416 8.39025 12.636ZM6.92719 11.0601L5.03558 9.02244L1.57385 12.7514C1.34343 12.9996 1.50663 13.424 1.83249 13.424H6.19566C6.59968 13.424 6.92719 13.0712 6.92719 12.636V11.0601ZM6.13287 7.84044L11.6194 1.9304C12.058 1.45787 12.7693 1.45787 13.2079 1.9304C13.6466 2.40294 13.6466 3.16907 13.2079 3.6416L7.72144 9.55164L6.13287 7.84044Z"
+                                        fill="#CDC6BE"></path>
+                                </svg> Show
+                                Products</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-heading">
+                        <h4>Specs</h4>
+                        <h2 class="fw-bolder fs-1">Subscribe to our newsletter
+                            <br> <span class="fw-normal">and get 20% off</span>
+                        </h2>
+                        <p>The exhibits showcased a breathtaking timeline, highlighting the evolution of glasses from
+                            their
+                            humble origins to the sophisticated, trendsetting accessories they are today.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-box">
+                        <p>Type your email:</p>
+                        <div class="input-group">
+                            <input type="email" placeholder="Enter your email" class="form-control">
+                            <button class="btn secdary-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog py-5">
+        <div class="container">
+            <h2 class="mb-3">Blog & Articles</h2>
+    
+            <div class="blog-card">
+                <div class="blog-card-item">
+                    <div class="card">
+                        <img src="./img/image_1763.png" class="card-img-top img-fluid" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title...</p>
+                            <button class="secondary-btn secdary-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="blog-card-item">
+                    <div class="card">
+                        <img src="./img/image_1763 (1).png" class="card-img-top img-fluid" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title...</p>
+                            <button class="secondary-btn secdary-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="blog-card-item">
+                    <div class="card">
+                        <img src="./img/image_1768.png" class="card-img-top img-fluid" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title...</p>
+                            <button class="secondary-btn secdary-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="blog-card-item">
+                    <div class="card">
+                        <img src="./img/image_1768.png" class="card-img-top img-fluid" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title...</p>
+                            <button class="secondary-btn secdary-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="blog-card-item">
+                    <div class="card">
+                        <img src="./img/image_1766.png" class="card-img-top img-fluid" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title...</p>
+                            <button class="secondary-btn secdary-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="blog-card-item">
+                    <div class="card">
+                        <img src="./img/image_1768png" class="card-img-top img-fluid" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title...</p>
+                            <button class="secondary-btn secdary-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img src="./img/dark-logo.png" alt="">
+                    <h2>Purpose and <span>Functionality </span>
+                    </h2>
+                    <p>Glasses play a crucial role in eye health. Regular eye check-ups and the right prescription
+                        ensure optimal vision, preventing eye strain, headaches, and other related issues</p>
+                    <div class="payments">
+                        <a href="#">
+
+                        </a>
+                        <a href="#"> </a>
+                        <a href="#"> </a>
+                        <a href="#"> </a>
+                        <a href="#"> </a>
+                    </div>
+
+                </div>
+                <div class="col-md-2 footer-box">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">All collections</a></li>
+
+                        <li><a href="#">All Products</a></li>
+                        <li><a href="#">My Cart</a></li>
+
+                    </ul>
+
+
+                </div>
+                <div class="col-md-2 footer-box">
+                    <h4>Account:</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Shipping & Delivery</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Faq</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-box">
+                    <h4>Share</h4>
+                    <p>Social sharing describes when social media users broadcast web content on a social network to
+                        their connections</p>
+                    <div class="footer-social-link">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   
+
+
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Bootstrap 5.0.2 JS CDN (with Popper.js included) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+
+            // jQuery methods go here...
+
+
+            $('.blog-card').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                          
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            arrows: false,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+
+        });
+        const paymentIcons = [
+  { id: "visa", title: "Visa", svgPath: "visa.svg" },
+  { id: "mastercard", title: "Mastercard", svgPath: "mastercard.svg" },
+  { id: "amex", title: "American Express", svgPath: "amex.svg" },
+  { id: "paypal", title: "PayPal", svgPath: "paypal.svg" }
+];
+
+const paymentsContainer = document.querySelector(".payments");
+
+paymentIcons.forEach(icon => {
+  const link = document.createElement("a");
+  link.href = "#";
+  link.innerHTML = `<img src="${icon.svgPath}" alt="${icon.title}" width="38" height="24">`;
+  paymentsContainer.appendChild(link);
+});
+
+    </script>
+</body>
+
+</html>
