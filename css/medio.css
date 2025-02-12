@@ -49,6 +49,26 @@ display: none;
                 margin-top: 20px;
             }
 }
+
+@media screen and (max-width:991px){
+    .slide-heading {
+        transform: translatex(0%);
+        padding-inline: 15px;
+    }
+    .sell-box {
+display: flex;
+justify-content: space-between;
+    }
+    .sell-box .sell-heading {
+       width: 100%;
+            }
+}
+@media screen and (max-width:1299px){
+    .slide-heading {
+        transform: translatex(0%);
+        padding-inline: 15px;
+    }
+}
 /* @media screen and (max-width:576px){
     button.slick-prev.slick-arrow {
         display: none;

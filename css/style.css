@@ -280,7 +280,10 @@ body {
     opacity: 1;
     transition: all .05s;
 }
-
+.sell-box1{
+    width: 100%;
+    justify-content: space-between;
+}
 .sell-box1 .sell-heading {
     position: relative;
 }
